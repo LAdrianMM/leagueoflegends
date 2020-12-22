@@ -1,0 +1,77 @@
+body {
+  font-family: 'Piedra', cursive !important;
+}
+#header .navbar {
+  /* background-image: linear-gradient(#0F2027, #203A43, #2C5364); */
+  
+}
+#header .navbar-brand {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding-left: 40px;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item a {
+  color: white;
+  padding-right: 50px;
+  font-size: 20px;
+}
+#navbarSupportedContent .navbar-nav .nav-item a:hover {
+  color: #7bdbe2a4;
+}
+#navbarSupportedContent .navbar-nav:last-child {
+  padding-right: 0;
+}
+
+/* Carrousel Header */
+/* #carouselExampleFade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} */
+#carousel {
+  position: relative;
+}
+#carousel .carousel-inner {
+  max-height: 100vh;
+  object-fit: cover;
+}
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+/* /Header */
+
+/* Nav Center */
+#nav-center {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+#nav-center .nav-item {
+  border-right: 2px solid #7bdbe2d5;
+  /* border-left: 1px solid #7bdbe2d5; */
+  padding: 0 40px;
+}
+#nav-center .nav-item a:hover{
+  color: #7bdbe2d5;
+
+}
+#nav-center .nav-item a {
+  color: #acadadd8;
+}
+/* /Nav Center */
+
+/* Main */
+#main {
+  background-image: url('https://i.blogs.es/b3ef75/league-of-legends-wild-rift/1366_2000.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
